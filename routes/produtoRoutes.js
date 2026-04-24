@@ -6,8 +6,6 @@ const produtoControllers = require('../controllers/produtoControllers');
 // Lista todos os usuários
 router.get('/', produtoControllers.getProduto); 
  
-router.get('/buscar', produtoControllers.buscarProduto); 
- 
 // Cria um novo usuário (espera nome, cpf, email, telefone no body)
 router.post('/', produtoControllers.createProduto); 
  
